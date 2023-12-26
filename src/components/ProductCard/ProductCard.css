@@ -1,0 +1,14 @@
+/* styles.css (ya da projenizin genel CSS dosyası) */
+.custom-image-size {
+    object-fit: cover; /* Resmi belirli boyutlu bir kutuya sığdırır */
+    height: 300px; /* İstediğiniz yüksekliği ayarlayın */
+  }
+
+
+.clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* İstediğiniz satır sayısını belirtin */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
